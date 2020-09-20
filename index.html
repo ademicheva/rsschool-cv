@@ -4,40 +4,138 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Alex+Brush|Cormorant+SC&display=swap" rel="stylesheet">
+
     <title>CV Alina Demicheva</title>
+    <style type="text/css">
+        html,
+        body {
+            margin: 0;
+        }
+        
+        body {
+            width: 1280px;
+            height: 2600px;
+            font-family: 'Cormorant SC', serif;
+            color: #222222;
+        }
+        
+        header,
+        main {
+            width: 60%;
+            margin: 20px auto;
+        }
+        
+        header {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+        }
+        
+        h1 {
+            font-size: 50px;
+        }
+        
+        h2 {
+            font-size: 20px;
+            margin-bottom: -10px;
+        }
+        
+        .head-contacts {
+            padding-bottom: 20px;
+            padding-top: 10px;
+        }
+        /*  .photo-container {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+        }*/
+        
+        .soft-edu {
+            padding-left: 40px;
+        }
+        
+        .location {
+            color: darkgray;
+        }
+        
+        .photo-container img {
+            margin-top: 0px;
+            width: 150px;
+            height: 150px;
+        }
+        
+        .contacts {
+            line-height: 0px;
+        }
+        
+        ul .ages {
+            padding: 0px;
+            margin: 0px;
+        }
+        
+        .ages,
+        .languages,
+        .skills {
+            list-style-type: none;
+        }
+        
+        .contact-items {
+            width: 15%;
+            display: flex;
+            justify-content: space-around;
+            text-align: center;
+            margin-left: 500px;
+        }
+        
+        .contact-me li {
+            justify-content: center;
+            list-style: none;
+            flex-direction: row;
+        }
+        
+        .contact-text {
+            text-align: center;
+        }
+    </style>
 </head>
 
 <body>
     <header>
-        <h1>Alina Demicheva</h1>
-        <img src="ademicheva.jpg" alt="Alina's photo" width="150 px">
-        <h2>Contacts</h2>
-        <p><b>Personal E-mail:</b> ademicheva@gmail.com.</p>
-        <p><b>Skype:</b> alina.demicheva</p>
-        <p><b>Github:</b> ademicheva</p>
-        <p><b>Mobile tel.:</b> +380 63 263 84 26</p>
-
-
+        <div class="photo-container">
+            <img src="ademicheva.jpg" alt="Alina's photo">
+        </div>
+        <div class="contacts">
+            <h1>Alina Demicheva</h1>
+            <p class="location">Kyiv, Ukraine</p>
+            <h2 class="head-contacts">CONTACTS</h2>
+            <p><b>Personal E-mail:</b> ademicheva@gmail.com.</p>
+            <p><b>Skype:</b> alina.demicheva</p>
+            <p><b>Github:</b> ademicheva</p>
+            <p><b>Mobile tel.:</b> +380 63 263 84 26</p>
+        </div>
     </header>
     <main>
-        <h2>Courses/trainings/certificates</h2>
-        <p><b>February 2020 to March 2020</b><br> Softserve IT Academy<br> HTML/CSS/JavaScript Fundamentals</p>
-        <h2>Skills</h2>
-        <ul>
+        <h2>COURSES/TRAININGS/CERTIFICATES</h2>
+        <div class="soft-edu">
+            <p><b>February 2020 to March 2020</b><br> Softserve IT Academy<br> HTML/CSS/JavaScript Fundamentals</p>
+        </div>
+        <h2>SKILLS</h2>
+        <ul class="skills">
             <li>HTML5</li>
             <li>CSS3</li>
             <li>JavaScript / jQuery / AJAX</li>
             <li>Bootstrap</li>
             <li>GIT</li>
         </ul>
-        <h2>Education</h2>
+        <h2>EDUCATION</h2>
         <ul>
-            <li><b>2011-2014</b><br> Department of Post-Diploma Studies, Institute of international relations Taras Shevchenko National University of Kyiv<br>Specialist’s degree, International Business</li>
-            <li><b>2011-2013</b><br> Institute of international relations Taras Shevchenko National University of Kyiv <br>Master’s degree, International law, Private International Law Chair</li>
-            <li><b>2007-2011</b><br> Institute of international relations Taras Shevchenko National University of Kyiv <br>Bachelor’s degree, International law, Private International Law Chair</li>
+            <li class="ages"><b>2011-2014</b><br> Department of Post-Diploma Studies, Institute of international relations Taras Shevchenko National University of Kyiv<br>Specialist’s degree, International Business</li><br>
+            <li class="ages"><b>2011-2013</b><br> Institute of international relations Taras Shevchenko National University of Kyiv <br>Master’s degree, International law, Private International Law Chair</li><br>
+            <li class="ages"><b>2007-2011</b><br> Institute of international relations Taras Shevchenko National University of Kyiv <br>Bachelor’s degree, International law, Private International Law Chair</li>
         </ul>
-        <h2>Languages</h2>
-        <ul>
+        <h2>LANGUAGES</h2>
+        <ul class="languages">
             <li>Ukrainian – native</li>
             <li>Russian – native</li>
             <li>English – advanced</li>
@@ -45,7 +143,30 @@
         </ul>
 
     </main>
-    <footer>
+    <footer class="contact-me">
+        <p class="contact-text">CONTACT ME!</p>
+
+
+        <ul class="contact-items">
+            <li>
+                <a href="#">
+                    <img src="fb.png" width="30" alt="Facebook"></a>
+            </li>
+
+            <li>
+                <a href="#">
+                    <img src="insta.png" width="30" alt="Instagram"></a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="gmail.png" width="30" alt="Gmail"></a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="phone.png" width="30" alt="Mobile"></a>
+            </li>
+        </ul>
+
     </footer>
 
 </body>
