@@ -7,6 +7,11 @@
 **Github:** ademicheva  
 **Mobile tel.:** +380 63 263 84 26
 
+## Courses/trainings/certificates ##
+**February 2020 to March 2020**   
+Softserve IT Academy   
+HTML/CSS/JavaScript Fundamentals
+
 ##  Education ##
 
 **2011-2014**  
@@ -21,3 +26,8 @@ Master's degree, International law, Private International Law Chair
 **Institute of international relations Taras Shevchenko National University of Kyiv**   
 Bachelor's degree, International law, Private International Law Chair 
 
+### Languages  ###
+`-` Ukrainian – native  
+`-` Russian – native   
+`-`English – advanced   
+`-`French – elementary  
