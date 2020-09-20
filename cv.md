@@ -12,6 +12,13 @@
 Softserve IT Academy   
 HTML/CSS/JavaScript Fundamentals
 
+## Skills ## 
+`-` HTML5  
+`-` CSS3  
+`-` JavaScript / jQuery / AJAX   
+`-` Bootstrap  
+`-` GIT  
+
 ##  Education ##
 
 **2011-2014**  
@@ -29,5 +36,5 @@ Bachelor's degree, International law, Private International Law Chair
 ### Languages  ###
 `-` Ukrainian – native  
 `-` Russian – native   
-`-`English – advanced   
-`-`French – elementary  
+`-` English – advanced   
+`-` French – elementary  
